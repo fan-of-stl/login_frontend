@@ -36,8 +36,8 @@ This is a frontend application for managing user authentication and displaying a
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/fan-of-stl/login_frontend.git
+   cd login_frontend
    ```
 
 2. **Install dependencies:**
