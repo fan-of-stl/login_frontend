@@ -107,40 +107,54 @@ The frontend communicates with the following API endpoints:
 
   - **URL:** `GET /api/user`
   - **Authorization:**
-    ```Bearer Token
 
+    ```json
+    {
+      "Authorization" : Bearer Token
+    }
     ```
 
 - **Dashboard:**
 
   - **URL:** `GET /api/dashboard`
   - **Authorization:**
-    ```Bearer Token
 
+    ```json
+    {
+      "Authorization" : Bearer Token
+    }
     ```
 
 - **Update User:**
 
   - **URL:** `GET /api/update`
   - **Authorization:**
-    ```Bearer Token
 
+    ```json
+    {
+      "Authorization" : Bearer Token
+    }
     ```
 
 - **Delete User:**
 
   - **URL:** `GET /api/delete`
   - **Authorization:**
-    ```Bearer Token
 
+    ```json
+    {
+      "Authorization" : Bearer Token
+    }
     ```
 
 - **All Users List:**
 
   - **URL:** `GET /api/all-users`
   - **Body:**
-    ```Authorization : Bearer Token
-
+    ```json
+    {
+      "Authorization" : Bearer Token
+    }
     ```
 
 - **Fetch Movie List:**
