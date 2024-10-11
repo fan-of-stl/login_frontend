@@ -1,4 +1,4 @@
-# Frontend Movie Application
+# Frontend Application
 
 This is a frontend application for managing user authentication and displaying a list of movies. It is built using Vue.js and Axios, and it communicates with a backend server for user registration, login, and fetching movie data.
 
