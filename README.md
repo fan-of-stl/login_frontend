@@ -71,7 +71,7 @@ This is a frontend application for managing user authentication and displaying a
 2. **Open your browser and navigate to:**
 
    ```
-   http://localhost:8080
+   http://localhost:3000
    ```
 
 ## API Endpoints
@@ -79,6 +79,7 @@ This is a frontend application for managing user authentication and displaying a
 The frontend communicates with the following API endpoints:
 
 - **User Registration:**
+
   - **URL:** `POST /api/register`
   - **Body:**
     ```json
@@ -92,6 +93,7 @@ The frontend communicates with the following API endpoints:
     ```
 
 - **User Login:**
+
   - **URL:** `POST /api/login`
   - **Body:**
     ```json
@@ -101,8 +103,48 @@ The frontend communicates with the following API endpoints:
     }
     ```
 
+- **User:**
+
+  - **URL:** `GET /api/user`
+  - **Authorization:**
+    ```Bearer Token
+
+    ```
+
+- **Dashboard:**
+
+  - **URL:** `GET /api/dashboard`
+  - **Authorization:**
+    ```Bearer Token
+
+    ```
+
+- **Update User:**
+
+  - **URL:** `GET /api/update`
+  - **Authorization:**
+    ```Bearer Token
+
+    ```
+
+- **Delete User:**
+
+  - **URL:** `GET /api/delete`
+  - **Authorization:**
+    ```Bearer Token
+
+    ```
+
+- **All Users List:**
+
+  - **URL:** `GET /api/all-users`
+  - **Body:**
+    ```Authorization : Bearer Token
+
+    ```
+
 - **Fetch Movie List:**
-  - **URL:** `POST /api/movieList`
+  - **URL:** `POST https://hoblist.com/api/movieList`
   - **Body:**
     ```json
     {
@@ -118,4 +160,3 @@ The frontend communicates with the following API endpoints:
 - The application includes pages for user registration and login.
 - Upon successful registration or login, users are redirected to the movie list.
 - Alerts are displayed for any errors or previous login sessions.
-

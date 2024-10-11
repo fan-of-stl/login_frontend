@@ -6,7 +6,6 @@
       
       <div class="text-center m-4">
         <router-link to="/signup" class="btn btn-primary">Sign Up</router-link>
-        <router-link to="/login" class="btn btn-secondary">Log In</router-link>
       </div>
     </div>
   </template>
